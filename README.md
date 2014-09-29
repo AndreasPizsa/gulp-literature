@@ -3,6 +3,38 @@
 
 > Write literate code in markdown, use gulp-literature to compile it
 
+## About
+[Literature](//github.com/AndreasPizsa/literature) generalizes the idea of Literate CoffeeScript to just any language. It’s just Markdown with code blocks, except that the code blocks are intended to be executed. There are basically only three rules:
+
+* Regular, unfenced code blocks are executable code
+* Fenced code blocks are documentation. (That’s handy for usage examples)
+* `.litjs` or `.js.md` will result in a `.js` file, `.litc` or `.c.md` will create a `.c` file, etc.
+
+
+## Example
+#### Input
+ `test.js.md`
+
+```markdown
+# Usage
+Literature extracts (unfenced) code blocks - such as the following - from Markdown files:
+
+    literature = require('literature');
+    console.log(literature('test.js.md'));
+
+Sending this file through Literature will output only the above two code lines.
+```
+
+#### Output
+`test.js`
+```javascript
+literature = require('literature');
+console.log(literature('test.js.md'));
+```
+
+You can now either directly execute this code or `pipe` it to other tools.
+
+
 ## Install
 ```bash
  npm install gulp-literature --save-dev
