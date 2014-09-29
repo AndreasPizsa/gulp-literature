@@ -9,8 +9,11 @@
  ```
 
 ## Usage
-Require `gulp-literature`:
 
+#### API and Command Line
+See the [`literature` API and CLI tool](//github.com/AndreasPizsa/literature).
+
+#### Usage with Gulp
 `gulpfile.js`
 ```js
 var literature= require('gulp-literature');
