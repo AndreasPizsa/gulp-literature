@@ -1,6 +1,6 @@
 {
   "name": "gulp-literature",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Write literate code in markdown, use gulp-literature to compile it",
   "main": "gulp-literature.js",
   "scripts": {
