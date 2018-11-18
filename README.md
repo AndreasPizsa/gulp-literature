@@ -1,5 +1,5 @@
 # gulp-literature [![NPM version](https://badge.fury.io/js/gulp-literature.svg)](http://badge.fury.io/js/gulp-literature)
-  [![Build Status](https://travis-ci.org/AndreasPizsa/gulp-literature.svg)](https://travis-ci.org/AndreasPizsa/gulp-literature) 
+  [![Build Status](https://travis-ci.org/AndreasPizsa/gulp-literature.svg)](https://travis-ci.org/AndreasPizsa/gulp-literature) [![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/gulp-literature.svg)](https://greenkeeper.io/) 
 
 > Write literate code in markdown, use gulp-literature to compile it
 
